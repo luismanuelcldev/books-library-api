@@ -19,7 +19,7 @@ The solution is organized into four projects:
 - **BooksLibrary.Infrastructure**: Repositories that consume FakeRestAPI through a typed `HttpClient`.
 - **BooksLibrary.Api**: Controllers, dependency injection, CORS, and Swagger configuration.
 
-![Books Library Architecture](docs/books-library-architecture.png)
+![Books Library Architecture](docs/Books%20Library%20Architecture%20Technical%20Test.png)
 
 *System overview: React frontend, .NET proxy API and FakeRestAPI, with Clean Architecture layers and API endpoints.*
 
