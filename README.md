@@ -92,7 +92,12 @@ http://localhost:5001/swagger
 
 This project does not use a database. All operations are delegated to FakeRestAPI at `https://fakerestapi.azurewebsites.net/` through the infrastructure repositories.
 
+## Frontend
+
+The frontend for this technical test is available in the [Books Library Client repository](https://github.com/luismanuelcldev/books-library-client).
+
 ## Notes
 
 - CORS is configured to allow requests from a separate frontend application.
 - Swagger is enabled in the Development environment.
+- **FakeRestAPI limitations:** POST, PUT, and DELETE operations return successful responses, but changes are not persisted by FakeRestAPI. Newly created, updated, or deleted items may not appear in subsequent GET requests. This is the expected behavior of the third-party mock service.
