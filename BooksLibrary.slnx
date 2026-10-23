@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BooksLibrary.Api/BooksLibrary.Api.csproj" />
+  <Project Path="BooksLibrary.Application/BooksLibrary.Application.csproj" />
+  <Project Path="BooksLibrary.Domain/BooksLibrary.Domain.csproj" />
+  <Project Path="BooksLibrary.Infrastructure/BooksLibrary.Infrastructure.csproj" />
+</Solution>
